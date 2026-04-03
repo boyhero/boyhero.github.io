@@ -1,0 +1,131 @@
+{
+  "version": "1.0",
+  "updatedAt": "2026-04-03T15:30:00+08:00",
+  "timestamp": 1743667800000,
+  "source": "通达信量化选股",
+  "formulas": [
+    {
+      "name": "rps一线红",
+      "category": "rps",
+      "requiresExtensionData": true,
+      "stocks": [
+        {
+          "code": "600519",
+          "name": "",
+          "strategy": "rps一线红",
+          "reason": "RPS强势，RPS>90，突破新高",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        },
+        {
+          "code": "300750",
+          "name": "",
+          "strategy": "rps一线红",
+          "reason": "RPS强势，RPS>85，量价齐升",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    },
+    {
+      "name": "波段买入",
+      "category": "swing",
+      "requiresExtensionData": false,
+      "stocks": [
+        {
+          "code": "000858",
+          "name": "",
+          "strategy": "波段买入",
+          "reason": "波段买点，MACD金叉，缩量回调后放量",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        },
+        {
+          "code": "600036",
+          "name": "",
+          "strategy": "波段买入",
+          "reason": "波段买点，布林带下轨反弹",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    },
+    {
+      "name": "竞价寻宝",
+      "category": "auction",
+      "requiresExtensionData": false,
+      "stocks": [
+        {
+          "code": "002415",
+          "name": "",
+          "strategy": "竞价寻宝",
+          "reason": "竞价异动，竞价量比>3，资金抢筹",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    },
+    {
+      "name": "年高回踩",
+      "category": "pullback",
+      "requiresExtensionData": false,
+      "stocks": [
+        {
+          "code": "601318",
+          "name": "",
+          "strategy": "年高回踩",
+          "reason": "年线回踩确认，回踩年线获支撑",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    },
+    {
+      "name": "月线反转",
+      "category": "reversal",
+      "requiresExtensionData": true,
+      "stocks": [
+        {
+          "code": "600276",
+          "name": "",
+          "strategy": "月线反转",
+          "reason": "月线级别反转信号，月线底部放量反转",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    },
+    {
+      "name": "口袋支点",
+      "category": "pocket_pivot",
+      "requiresExtensionData": false,
+      "stocks": [
+        {
+          "code": "603288",
+          "name": "",
+          "strategy": "口袋支点",
+          "reason": "口袋支点突破，口袋支点突破平台",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        },
+        {
+          "code": "000001",
+          "name": "",
+          "strategy": "口袋支点",
+          "reason": "口袋支点突破，口袋支点+放量",
+          "position": 5,
+          "takeProfit": null,
+          "stopLoss": null
+        }
+      ]
+    }
+  ]
+}
